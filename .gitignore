@@ -17,17 +17,14 @@ out
 build
 .gradle
 
+# Files from Forge MDK
+forge*changelog.txt
+logs
+
 # other
 eclipse
 run
-
-# Aizistral
-.apt_generated
-logs
-omniconfig_first
-*works
-Users
-.factorypath
-deps/Soulbound*
-multiuser_args.txt
-old_enigmatic_desc.txt
+src/generated/resources/.cache
+libs
+notes
+/.lastactionnote
